@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "647899027921",
+    "firebase_url": "https://kabu-elect.firebaseio.com",
+    "project_id": "kabu-elect",
+    "storage_bucket": "kabu-elect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647899027921:android:474caa9878ef5961",
+        "android_client_info": {
+          "package_name": "com.nenecorp.vote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647899027921-l54u4den30i4beb0cs2vtlnjmnkcd7al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nenecorp.vote",
+            "certificate_hash": "54f6bf2b89cb1797daea2261c9613823b6dc3ede"
+          }
+        },
+        {
+          "client_id": "647899027921-aoijg8be531tpc5qjeg504pq7gnr221q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbjzy1NrdtAmFJoG7lrlc1FNEBQmCCzlI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647899027921-aoijg8be531tpc5qjeg504pq7gnr221q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

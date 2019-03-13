@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vote</string>
+    <string name="log_out">Log out</string>
+    <string name="preferred_candidate">Preferred Candidate</string>
+    <string name="category">Category</string>
+    <string name="pick_candidate_singular">You have not picked a candidate for</string>
+    <string name="postion">Position</string>
+    <string name="election_date">Election Date</string>
+    <string name="election_position">Election Position</string>
+</resources>

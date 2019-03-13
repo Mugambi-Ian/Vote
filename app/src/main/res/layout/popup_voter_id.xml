@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/scanId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:elevation="10dp">
+
+        <LinearLayout
+          android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:weightSum="5"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_weight="4.5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Scan Your Id Card"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"/>
+
+            <RelativeLayout
+                android:layout_weight=".5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <fragment
+                    android:id="@+id/barcode_fragment"
+                    android:name="info.androidhive.barcode.BarcodeReader"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:auto_focus="true"
+                    app:use_flash="false" />
+
+                <info.androidhive.barcode.ScannerOverlay
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#44000000"
+                    app:line_color="#7323DC"
+                    app:line_speed="6"
+                    app:line_width="4"
+                    app:square_height="400"
+                    app:square_width="200"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:visibility="gone"
+        android:id="@+id/manuallyEnter_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:elevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:text="Enter your admission number"
+                android:textColor="@android:color/black" />
+
+            <EditText
+                android:gravity="center"
+                android:id="@+id/voters_admissionNumber"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_margin="20dp" />
+
+            <LinearLayout
+                android:id="@+id/Btn_confirmAdmNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/voters_admissionNumber"
+                android:layout_margin="20dp"
+                android:background="@drawable/kabu_selected"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/text_confirmPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="Proceed"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
