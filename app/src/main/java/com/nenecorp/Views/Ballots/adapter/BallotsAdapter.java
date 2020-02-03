@@ -2,9 +2,9 @@ package com.nenecorp.Views.Ballots.adapter;
 
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.widget.CardView;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+import androidx.cardview.widget.CardView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,10 +29,10 @@ import com.nenecorp.vote.R;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.support.constraint.Constraints.TAG;
 
 public class BallotsAdapter extends PagerAdapter implements CardAdapter {
 
+    private static final String TAG = "Tag";
     private List<CardView> mViews;
     private int limit = 0;
     private ArrayList<BALLOT> mData;
