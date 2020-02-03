@@ -5,7 +5,7 @@ This app serves as a terminal to voters via secret ballot. This app greatly impr
 This project only contains information related to the voting terminal. To access information on the Election Board terminal click [here](https://github.com/nenecorporates/Election-Board).  
 
 
-1.On opening the app, it checks for permissions to use your camera and access telephony services. Telephony services are used in device verification while the camera is used to scan the barcode on ones school id for human verification.  
+1.On opening the app, it checks for permissions to use your camera and access telephony services. Telephony services are used in device verification using its IMEI while the camera is used to scan the barcode on the back of ones school id for human verification.  
 ![image](https://drive.google.com/uc?export=view&id=1gkoh_H5-GJQmn6lzsHGXDmiJnqLN8yNd)
 ![image](https://drive.google.com/uc?export=view&id=1QiNOGuObAilNM3-l2MxpGRC6_ilhNZtl)  
 2. In the event that theres an election the vote button becomes enabled.  
