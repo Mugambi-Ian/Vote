@@ -1,10 +1,8 @@
 # Vote
-This app serves as a terminal to voters via secret ballot. This app greatly improves the efficiency of the election process by making it mobile while still maintaining its integrity. I would like to note out that this version was specifically built for my school.
+This app serves as a terminal to voters via secret ballot. This app greatly improves the efficiency of the election process by making it mobile while still maintaining its integrity. I would like to note that this version was specifically built for my school.
 
 ## Getting Started
-This project only contains information related to the voting terminal. To access information on the Election Board terminal click [here](https://github.com/nenecorporates/Election-Board).  
-
-
+This project only contains information related to the voting terminal. To access information on the Election Board terminal click [here](https://github.com/nenecorporates/Election-Board).
 1. On opening the app, it checks for permission to use your camera and access telephony services. Telephony services are used in device verification using its IMEI while the camera is used to scan the barcode on the back of one's school id for human verification.  
 ![image](https://drive.google.com/uc?export=view&id=1gkoh_H5-GJQmn6lzsHGXDmiJnqLN8yNd)
 ![image](https://drive.google.com/uc?export=view&id=1QiNOGuObAilNM3-l2MxpGRC6_ilhNZtl)  
@@ -14,7 +12,7 @@ This project only contains information related to the voting terminal. To access
 ![image](https://drive.google.com/uc?export=view&id=1aZhXylX-gQeKW4Ft0jewPPPyLbsqvx3o)  
 4. In the event that the email domain isn't the specified school domain, the app returns an error.  
 ![image](https://drive.google.com/uc?export=view&id=1HijeYh18IvcEf8I6ick_9LplyOwomomh)  
-5. If the user email is valid the user is then required to scan the bar code on the back of their id for human verification.  
+5. If the user email is valid the user is then required to scan the barcode on the back of their id for human verification.  
 ![image](https://drive.google.com/uc?export=view&id=1Uj0TfPZW_bEOrsKAnJ8eYtMpfZ8iLvvh)  
 6. If this is the user's first election the user will be required to set up a voters passkey. This key can only be changed from the election office.  
 ![image](https://drive.google.com/uc?export=view&id=17JWWu8_GR_nLQC6GhkaUdJ5JAiIQTpzb)
@@ -34,5 +32,5 @@ This project only contains information related to the voting terminal. To access
 12. Clicking on an election position allows the user to view the results for a particular position.  
 ![image](https://drive.google.com/uc?export=view&id=1f-dAuJTBWji1oq_ZYPe4VjBpomqh83br/)  
 
-## Installation 
-Click [here](https://drive.google.com/uc?export=view&id=1jhGLhUspfRDfzyotHPyVEuW71HcDC0qs) to get the demo apk.
+## Installation
+Click [here](https://drive.google.com/uc?export=view&id=1jhGLhUspfRDfzyotHPyVEuW71HcDC0qs) to get the demo APK.
