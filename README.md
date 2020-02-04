@@ -22,7 +22,7 @@ This project only contains information related to the voting terminal. To access
 ![image](https://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv11.jpg)  
 8. On clicking see ballot paper the user is taken to a screen where they confirm their selected candidate. The app prompts the user if they haven't voted for certain positions.  
 ![image](https://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv12.jpg)
-![image](hhttps://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv13.jpg)  
+![image](https://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv13.jpg)  
 9. On clicking submit ballot the user will have voted for his/her preferred candidates.  
 ![image](https://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv14.jpg)  
 10. The app prevents double voting.  
