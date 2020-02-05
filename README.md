@@ -2,7 +2,7 @@
 This app serves as a terminal to voters via secret ballot. This app greatly improves the efficiency of the election process by making it mobile while still maintaining its integrity. I would like to note that this version was specifically built for my school.
 
 ## Getting Started
-This project only contains information related to the voting terminal. To access information on the Election Board terminal click [here](https://github.com/nenecorporates/Election-Board).
+This page only contains information related to the voting terminal. To access information on the Election Board terminal click [here](https://github.com/nenecorporates/Election-Board).
 1. On opening the app, it checks for permission to use your camera and access telephony services. Telephony services are used in device verification using its IMEI while the camera is used to scan the barcode on the back of one's school id for human verification.  
 ![image](https://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv1.jpg)
 ![image](https://github.com/nenecorporates/Vote/raw/master/ScreenShots/ssv2.jpg)  
